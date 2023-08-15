@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import react, { useState } from 'react';
+import View from './View';
+import Form from './Form';
 
-function App() {
+const App = () => {
+  const data = [
+    {
+      id: '1',
+      name: 'rabin',
+      age: 28
+    }, {
+      id: '2',
+      name: 'anisha',
+      age: 25
+    },
+    {
+      id: '3',
+      name: 'karishma',
+      age: 25
+    }
+  ]
+  const [info, updateData] = useState(data);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <View info={info} delDatas={updateData} />
+      <Form update={updateData} data={info} />
     </div>
-  );
+  )
 }
+
 
 export default App;
