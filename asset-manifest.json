@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/turmerichouse/static/css/main.7eebc124.css",
+    "main.js": "/turmerichouse/static/js/main.f33edbb6.js",
+    "static/js/787.d3befce1.chunk.js": "/turmerichouse/static/js/787.d3befce1.chunk.js",
+    "index.html": "/turmerichouse/index.html",
+    "main.7eebc124.css.map": "/turmerichouse/static/css/main.7eebc124.css.map",
+    "main.f33edbb6.js.map": "/turmerichouse/static/js/main.f33edbb6.js.map",
+    "787.d3befce1.chunk.js.map": "/turmerichouse/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7eebc124.css",
+    "static/js/main.f33edbb6.js"
+  ]
+}
